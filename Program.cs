@@ -19,12 +19,12 @@ namespace QuestPDF.ExampleInvoice
             var document = new InvoiceDocument(model);
 
             // Generate PDF file and show it in the default viewer
-            document.GeneratePdfAndShow();
+            //document.GeneratePdfAndShow();
             
             // Or open the QuestPDF Previewer and experiment with the document's design
             // in real-time without recompilation after each code change
             // https://www.questpdf.com/document-previewer.html
-            //document.ShowInPreviewer();
+            document.ShowInPreviewer();
         }
     }
 }

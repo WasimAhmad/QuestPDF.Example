@@ -12,7 +12,13 @@
 
     <ItemGroup>
       <None Update="logo.png">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="logocertified.jpg">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="signature.jpg">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
     </ItemGroup>
 
